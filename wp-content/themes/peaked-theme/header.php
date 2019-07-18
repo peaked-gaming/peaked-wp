@@ -12,7 +12,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <!-- Twitter Live Feed -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
     <!-- Lato Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -20,3 +22,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous">
     <?php wp_head(); ?>
   </head>
+
+  <body>
+    <!-- Navigation -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/"><span id="peak">Peaked</span> Gaming</a>
+        <div id="navbarNav">
+          <ul class="navbar-nav">
+           <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+      	   <li class="nav-item"><a class="nav-link" href="/partner">Partners</a></li>
+           <li class="nav-item"><a class="nav-link" href="/shop">Shop</a></li>
+      	   <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <ul class="navbar-nav ml-auto">
+          <li><a class="nav-link" href="#"><i class="fas fa-user"></i> Register </a></li>
+          <li><a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login </a></li>
+        </ul>
+      </nav>
+    </div>

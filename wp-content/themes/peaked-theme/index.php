@@ -5,26 +5,66 @@
    */
   get_header(); ?>
 
-  <body>
-    <!-- Navigation -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="/"><span id="peak">Peaked</span> Gaming</a>
-        <div class="" id="navbarNav">
-          <ul class="navbar-nav">
-           <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-           <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-      	   <li class="nav-item"><a class="nav-link" href="/partner">Partners</a></li>
-           <li class="nav-item"><a class="nav-link" href="/shop">Shop</a></li>
-      	   <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-          </ul>
-        </div>
+      <!-- Main Banner -->
+      <div id="main-banner" class="container-fluid">
+      </div>
 
-        <ul class="navbar-nav ml-auto">
-          <li><a class="nav-link" href="#"><i class="fas fa-user"></i> Register </a></li>
-          <li><a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login </a></li>
-        </ul>
-      </nav>
-    </div>
-    <?php get_footer(); ?>
-  </body>
+      <!-- Mission Statement -->
+      <div id="mission" class="container">
+        <p id="ms" class="text-center">Peaked Gaming was created with the mission to build a community where gamers, streamers, creators and developers could come together, socialize and meet others of the same nature; to grow and develop both the individual and the community.</p>
+      </div>
+
+      <!-- Sponders/Partners -->
+      <div id="sponsors" class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="https://via.placeholder.com/200x150" />
+          </div>
+          <div class="col">
+            <img src="https://via.placeholder.com/200x150" />
+          </div>
+          <div class="col">
+            <img src="https://via.placeholder.com/200x150" />
+          </div>
+          <div class="col">
+            <img src="https://via.placeholder.com/200x150" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Get Involved -->
+      <div class="container">
+        <h1 class="text-center bodyh1">Get Involved</h1>
+        <div class="row">
+          <div class="col-lg-4 involve">
+            <p><i class="fas fa-pencil-alt"></i></p>
+            <h3 class="text-center">Apply to be a Community Streamer</h3>
+            <p class="involve-text">Want to become a Peaked Gaming Community Streamer? Fill out the application here!</p>
+          </div>
+          <div class="col-lg-4 involve">
+            <p><i class="fas fa-users"></i></p>
+            <h3 class="text-center">Team List</h3>
+            <p class="involve-text">Check out current Peaked Gaming Team Members!</p>
+          </div>
+          <div class="col-lg-4 involve">
+            <p><i class="fab fa-twitch"></i></p>
+            <h3 class="text-center">Lurker Mode</h3>
+            <p class="involve-text">Want to give the Peaked Gaming Community Streamers some support? Enter lurk mode, earn points!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Socials Feed -->
+      <div id="feed" class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <a class="twitter-timeline" data-height="950" data-theme="light" href="https://twitter.com/peakedGG/lists/peaked-community?ref_src=twsrc%5Etfw">A Twitter List by peakedGG</a>
+            </div>
+            <div class="col-lg-6">
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <?php get_footer(); ?>
