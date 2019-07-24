@@ -54,6 +54,24 @@
         </div>
       </div>
 
+      <!-- Youtube Section -->
+      <div class="container-fluid">
+        <div id="yt" class="row text-center">
+          <div class="col">
+            <img src="https://via.placeholder.com/384x216" />
+          </div>
+          <div class="col">
+            <img src="https://via.placeholder.com/384x216" />
+          </div>
+          <div class="col">
+            <img src="https://via.placeholder.com/384x216" />
+          </div>
+          <div class="col">
+            <img src="https://via.placeholder.com/384x216" />
+          </div>
+        </div>
+      </div>
+
       <!-- Live Socials Feed -->
       <div id="feed" class="container-fluid">
         <div class="container">
