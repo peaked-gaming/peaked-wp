@@ -17,33 +17,15 @@ body {
   font-weight: 700 !important;
 }
 
-#main-banner {
-  background-color: #bbbdbe;
-  padding: 20em 10em 20em 10em;
-  background-image: url("https://via.placeholder.com/1920x500") no-repeat center center;
+
+#profilepic {
+  border-radius: 50%;
 }
 
-#mission {
-  margin-top: 1.2em;
-  margin-bottom: 1.5em;
-}
-
-#ms {
-  font-size: 22px;
-  font-weight: 400;
-}
-
-#sponsors {
-  margin-bottom: 1.5em;
-}
-
-#yt {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-#feed {
-  background-color: #fff;
+#profilesocials{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
 }
 
 .bodyh1 {
@@ -60,27 +42,6 @@ h1.bodyh1::after {
   margin-right: auto;
 }
 
-h3 {
-  font-weight: 650;
-}
-
-.involve {
-  display: inline-block;
-  text-align: center;
-  vertical-align: bottom;
-  margin-top: 2em;
-}
-
-.involve i {
-  font-size: 50px;
-  color: #057abf;
-}
-
-.involve-text {
-  font-size: 18px;
-  font-weight: 150;
-  padding: 0 1em 0 1em;
-}
 
 #footer {
   margin-top: 1.5em;
