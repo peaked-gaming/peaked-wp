@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div class="container">
+<div id="profileheader" class="container-fluid">
   <div class="row">
     <div id="afterline" class="col-md-12 text-center">
       <img id="profilepic" class="img-fluid" src="https://via.placeholder.com/200x200" />

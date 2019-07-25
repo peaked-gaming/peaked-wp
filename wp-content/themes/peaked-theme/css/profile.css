@@ -17,6 +17,9 @@ body {
   font-weight: 700 !important;
 }
 
+#profileheader{
+  background-color: #d3d3d3;
+}
 
 #profilepic {
   border-radius: 50%;
